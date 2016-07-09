@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'NinjamockBasic';
+    src: url('../../common-files/fonts/Basic/Basic.eot');
+    src: url('../../common-files/fonts/Basic/Basic.eot') format('embedded-opentype'), url('../../common-files/fonts/Basic/Basic.woff') format('woff'), url('../../common-files/fonts/Basic/Basic.svg#Basic') format('svg'), url('../../common-files/fonts/Basic/Basic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NinjamockBasic2';
+    src: url('../../common-files/fonts/Basic2/Basic2.eot');
+    src: url('../../common-files/fonts/Basic2/Basic2.eot') format('embedded-opentype'), url('../../common-files/fonts/Basic2/Basic2.woff') format('woff'), url('../../common-files/fonts/Basic2/Basic2.svg#Basic') format('svg'), url('../../common-files/fonts/Basic2/Basic2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NinjamockIos';
+    src: url('../../common-files/fonts/ios/ios.eot');
+    src: url('../../common-files/fonts/ios/ios.eot') format('embedded-opentype'), url('../../common-files/fonts/ios/ios.woff') format('woff'), url('../../common-files/fonts/ios/ios.svg#Basic') format('svg'), url('../../common-files/fonts/ios/ios.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NinjamockWin8';
+    src: url('../../common-files/fonts/win8/win8.eot');
+    src: url('../../common-files/fonts/win8/win8.eot?#iefix') format('embedded-opentype'), url('../../common-files/fonts/win8/win8.woff') format('woff'), url('../../common-files/fonts/win8/win8.ttf') format('truetype'), url('../../common-files/fonts/win8/win8.svg#NinjamockWin8') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NinjamockAndroid';
+    src: url('../../common-files/fonts/android/android.eot');
+    src: url('../../common-files/fonts/android/android.eot?#iefix') format('embedded-opentype'), url('../../common-files/fonts/android/android.woff') format('woff'), url('../../common-files/fonts/android/android.ttf') format('truetype'), url('../../common-files/fonts/android/android.svg#NinjamockAndroid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TomsHandwritten';
+    src: url('../../common-files/fonts/toms/280747_0_0.eot');
+    src: url('../../common-files/fonts/toms/280747_0_0.eot') format('embedded-opentype'), url('../../common-files/fonts/toms/280747_0_0.woff') format('woff'), url('../../common-files/fonts/toms/280747_0_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blokk';
+    src: url('../../common-files/fonts/blokk/BLOKKRegular.eot');
+    src: url('../../common-files/fonts/blokk/BLOKKRegular.eot') format('embedded-opentype'),
+        url('../../common-files/fonts/blokk/BLOKKRegular.woff') format('woff'),
+        url('../../common-files/fonts/blokk/BLOKKRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

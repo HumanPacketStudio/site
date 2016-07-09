@@ -1,0 +1,113 @@
+﻿* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+.sidebar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    bottom: 0;
+    border-right: 1px solid darkgray;
+    background: #EEE;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow-y: scroll;
+}
+.content{
+    position: absolute;
+    left: 200px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.content iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.download-link {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.tree ul,
+.tree li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.tree input {
+    position: absolute;
+    opacity: 0;
+}
+
+.tree input + label + ul {
+    margin: 0 0 0 20px;
+}
+
+.tree input ~ ul {
+    display: none;
+}
+
+.tree label {
+    padding-left: 10px;
+    position: relative;
+    margin: 0;
+    font-weight: normal;
+}
+
+.tree label,
+.tree label::before {
+    cursor: pointer;
+}
+
+.tree input:checked:not(:disabled) ~ ul {
+    display: block;
+}
+
+.tree label::before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.tree input:checked + label::before {
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    margin-top: -2px;
+}
+
+.tree input:not(:checked) + label::before {
+    border-left: 4px solid;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    margin-top: -4px;
+}
+
+.tree label, .tree a{
+    max-width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.tree a.selected{
+    text-decoration: underline;
+    font-weight: bold;
+}
