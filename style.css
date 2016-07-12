@@ -1,25 +1,37 @@
 
+
+body
+{
+	width:50%;
+	
+    background: url(images/background.png) no-repeat center  fixed;
+	 -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    /*background-position: top center;*/
+	opacity:1;
+}
 #_1
 {
-    width:100%;
-	height:100%;
-    background: url(images/background.png) no-repeat;
-    background-position: top center;
-	opacity:1;
+    position:fixed;
+	 width:50%;
+  
 	
 }
 
 #logo
 {
-    width:121px;
-	height:119px;
-	left:129px;
-	top:38px;
+    width:200px;
+	height:200px;
+	left:276px;
+	top:60px;
 	opacity:1;
-	margin-left:0px;
-	margin-top:0px;
+	
+	/*margin-left:0px;
+	margin-top:40px;
 	margin-right:0px;
-	margin-bottom:0px;
+	margin-bottom:-10px;*/
 	border-width:1px;
 	border-bottom-left-radius:0px;
 	-webkit-border-bottom-left-radius:0px;
@@ -41,16 +53,16 @@
 	-moz-border-top-right-radius:0px;
 	-ms-border-top-right-radius:0px;
 	-o-border-top-right-radius:0px;
-	overflow:hidden;
+	/*overflow:hidden;*/
 	
 }
 
 #btn1
 {
-    width:215px;
-	height:230px;
-	left:129px;
-	top:269px;
+    width:315px;
+	/*height:230px;*/
+	left:235px;
+	top:230px;
 	opacity:1;
 	overflow:hidden;
 	font-family:TomsHandwritten;
@@ -62,10 +74,10 @@
 
 #btn2
 {
-    width:215px;
-	height:230px;
-	left:406px;
-	top:269px;
+    width:315px;
+	/*height:230px;*/
+	left:512px;
+	top:230px;
 	opacity:1;
 
 	font-family:TomsHandwritten;
@@ -77,10 +89,10 @@
 
 #btn3
 {
-    width:215px;
-	height:230px;
-	left:681px;
-	top:269px;
+    width:315px;
+	/*height:230px;*/
+	left:780px;
+	top:230px;
 	opacity:1;
 	
 	font-family:TomsHandwritten;
@@ -89,21 +101,106 @@
 	line-height:0px;
 	
 }
-
+ .buttonk
+ {
+	cursor:pointer;
+    display:block;
+    height:50px;
+    width:150px;
+	left: -7px;
+	top:-9px;
+    line-height:80px;
+    text-align:center;
+    background-image:url('images/Kafedra.png');
+    background-repeat:no-repeat;
+	background-size: contain;
+ }
+ .buttonN
+ {
+	cursor:pointer;
+    display:block;
+    height:50px;
+    width:150px;
+	left: 94px;
+	top:-9px;
+    line-height:80px;
+    text-align:center;
+    background-image:url('images/Napravl.png');
+    background-repeat:no-repeat;
+	background-size: contain;
+ }
+ .buttonS
+ {
+	cursor:pointer;
+    display:block;
+    height:50px;
+    width:150px;
+	left: 200px;
+	top:-9px;
+    line-height:80px;
+    text-align:center;
+    background-image:url('images/Nauka.png');
+    background-repeat:no-repeat;
+	background-size: contain;
+ }
+ .buttonSo
+ {
+	 cursor:pointer;
+    display:block;
+    height:53px;
+    width:150px;
+	left: 278px;
+	top:-12px;
+    line-height:80px;
+    text-align:center;
+    background-image:url('images/Sotrudn.png');
+    background-repeat:no-repeat;
+	background-size: contain;
+ }
+ .buttonKo
+ {
+	  cursor:pointer;
+    display:block;
+    height:51px;
+    width:150px;
+	left: 477px;
+	top:-10px;
+    line-height:80px;
+    text-align:center;
+    background-image:url('images/konakts.png');
+    background-repeat:no-repeat;
+	background-size: contain;
+ }
+ .buttonMp
+ {
+	  cursor:pointer;
+    display:block;
+    height:57.45px;
+    width:150px;
+	left: 377px;
+	top:-11px;
+    line-height:80px;
+    text-align:center;
+    background-image:url('images/Meropr.png');
+    background-repeat:no-repeat;
+	background-size: contain;
+ }
+ 
 #menu
-{
-    width:550px;
-	height:29px;
-	left:344px;
-	top:111px;
+{   
+    /*background-color: #fff;*/
+    width:560px;
+	height:35px;
+	left:500px;
+	top:178px;
 	opacity:1;
-	margin-left:0px;
+	/*margin-left:0px;
 	margin-top:0px;
 	margin-right:0px;
-	margin-bottom:0px;
+	margin-bottom:0px;*/
 	border-width:1px;
 	padding-left:0px;
-	padding-top:0px;
+	padding-top:5px;
 	padding-right:0px;
 	padding-bottom:0px;
 	border-bottom-left-radius:0px;
@@ -126,358 +223,8 @@
 	-moz-border-top-right-radius:0px;
 	-ms-border-top-right-radius:0px;
 	-o-border-top-right-radius:0px;
-	overflow:hidden;
+	/*overflow:hidden;*/
 	
 }
 
-#m1
-{
-    width:90px;
-	height:19px;
-	left:0px;
-	top:5px;
-	opacity:1;
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	border-width:1px;
-	text-align:left;
-	font-family:TomsHandwritten;
-	font-size:22px;
-	text-decoration:underline;
-	color:#0088cc;
-	overflow:visible;
-	line-height:22px;
-	white-space:nowrap;
-	
-}
 
-#m1_1
-{
-    text-align:left;
-	left:0px;
-	width:90px;
-	margin:0px;
-	font-size:22px;
-	line-height:22px;
-	top:-4px;
-	
-}
-
-#m2
-{
-    width:90px;
-	height:19px;
-	left:115px;
-	top:2px;
-	opacity:1;
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	border-width:1px;
-	text-align:left;
-	font-family:TomsHandwritten;
-	font-size:22px;
-	text-decoration:underline;
-	color:#0088cc;
-	overflow:visible;
-	line-height:22px;
-	white-space:nowrap;
-	
-}
-
-#m2_2
-{
-    text-align:left;
-	left:0px;
-	width:90px;
-	margin:0px;
-	font-size:22px;
-	line-height:22px;
-	top:-4px;
-	
-}
-
-#m3
-{
-    width:40px;
-	height:19px;
-	left:215px;
-	top:5px;
-	opacity:1;
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	border-width:1px;
-	text-align:left;
-	font-family:TomsHandwritten;
-	font-size:22px;
-	text-decoration:underline;
-	color:#0088cc;
-	overflow:visible;
-	line-height:22px;
-	white-space:nowrap;
-	
-}
-
-#m3_3
-{
-    text-align:left;
-	left:0px;
-	width:40px;
-	margin:0px;
-	font-size:22px;
-	line-height:22px;
-	top:-4px;
-	
-}
-
-#m4
-{
-    width:82px;
-	height:19px;
-	left:275px;
-	top:5px;
-	opacity:1;
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	border-width:1px;
-	text-align:left;
-	font-family:TomsHandwritten;
-	font-size:22px;
-	text-decoration:underline;
-	color:#0088cc;
-	overflow:visible;
-	line-height:22px;
-	white-space:nowrap;
-	
-}
-
-#m4_4
-{
-    text-align:left;
-	left:0px;
-	width:82px;
-	margin:0px;
-	font-size:22px;
-	line-height:22px;
-	top:-4px;
-	
-}
-
-#m5
-{
-    width:65px;
-	height:19px;
-	left:375px;
-	top:5px;
-	opacity:1;
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	border-width:1px;
-	text-align:left;
-	font-family:TomsHandwritten;
-	font-size:22px;
-	text-decoration:underline;
-	color:#0088cc;
-	overflow:visible;
-	line-height:22px;
-	white-space:nowrap;
-	
-}
-
-#m5_5
-{
-    text-align:left;
-	left:0px;
-	width:65px;
-	margin:0px;
-	font-size:22px;
-	line-height:22px;
-	top:-4px;
-	
-}
-
-#m6
-{
-    width:70px;
-	height:19px;
-	left:90px;
-	top:0px;
-	opacity:1;
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	border-width:1px;
-	text-align:left;
-	font-family:TomsHandwritten;
-	font-size:22px;
-	text-decoration:underline;
-	color:#0088cc;
-	overflow:visible;
-	line-height:22px;
-	white-space:nowrap;
-	
-}
-
-#m6_6
-{
-    text-align:left;
-	left:0px;
-	width:70px;
-	margin:0px;
-	font-size:22px;
-	line-height:22px;
-	top:-4px;
-	
-}
-svg:not(:root)
-{
-    overflow:visible;
-	
-}
-
-.placeholder
-{
-    border:1px solid #5C5C5E;
-	
-}
-
-.placeholder:before, .placeholder:after
-{
-    content:" ";
-	width:1px;
-	background:yellow;
-	display:block;
-	transform-origin:0 0 0;
-	-webkit-transform-origin:0 0 0;
-	-o-transform-origin:0 0 0;
-	-moz-transform-origin:0 0 0;
-	-ms-transform-origin:0 0 0;
-	position:absolute;
-	left:-1px;
-	top:0;
-	background-color:#5C5C5E;
-	
-}
-
-.placeholder:after
-{
-    left:100%;
-	
-}
-
-#logo:before
-{
-    transform:rotate(-45.47745377730958deg);
-	-webkit-transform:rotate(-45.47745377730958deg);
-	-o-transform:rotate(-45.47745377730958deg);
-	-ms-transform:rotate(-45.47745377730958deg);
-	-moz-transform:rotate(-45.47745377730958deg);
-	height:179.7115199389835;
-	
-}
-
-#logo:after
-{
-    transform:rotate(45.47745377730958deg);
-	-webkit-transform:rotate(45.47745377730958deg);
-	-o-transform:rotate(45.47745377730958deg);
-	-ms-transform:rotate(45.47745377730958deg);
-	-moz-transform:rotate(45.47745377730958deg);
-	height:179.7115199389835;
-	
-}
-
-.nm-label
-{
-    margin:0;
-	
-}
-
-ol.nm-label *, ul.nm-label *
-{
-    position:static;
-	
-}
-
-.nm-label p
-{
-    margin-bottom:0;
-	
-}
-
-ul, ol
-{
-    padding:0;
-	
-}
-
-ol > li > ol
-{
-    margin-left:8px;
-	
-}
-
-ul > li > ul
-{
-    margin-left:8px;
-	
-}
-
-ol.nm-label, ol.nm-label ol
-{
-    counter-reset:item;
-	
-}
-
-ol.nm-label li:not(.skip):before
-{
-    content:counters(item, ".") " ";
-	counter-increment:item;
-	
-}
-
-ol.nm-label li.skip:before
-{
-    content:"\a0";
-	
-}
-
-ul.nm-label
-{
-    padding-left:20px;
-	
-}
-
-ul.nm-label, ul.nm-label ul
-{
-    list-style-type:disc;
-	
-}
-
-ul.nm-label li
-{
-    display:list-item;
-	
-}
-
-ul.nm-label li.skip
-{
-    display:block;
-	
-}
-
-ul.nm-label li.skip:before
-{
-    content:"\a0";
-	
-}
