@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -49,7 +50,37 @@
 	<?php
 	require_once('vectors.php');
 	?>
+	<div id="enter">
+	<a href="#win1" class="login">  </a>
+	<a href="#win2" class="reg"></a>
+	
+	</div>
+	 <div id="footer">
+  <img class="imgf" src="images/footer.png">
+   </div>
+   <!-- Окно входа -->
+   <a href="#x" class="overlay" id="win1"></a>
+   <div class="popup">
+         <div class="textb">
+		 <h1>Войти в личный кабинет</h1> </div><br>
+		<br>
+     <div  style="border: 0px solid blue; position:relative; top:50px; left:40px; height:200px; width:300px;">
+		          
+      <form action="index.php" method="post">
+   
+  <p><input type="text" name="login" value="" placeholder="Логин или Email"></p><br><br><br>
+   
+   <p><input type="password" name="password" value="" placeholder="Пароль"></p><br><br>
+    
+  <p><input type="submit" value="войти"><p>
+</form>
+
+</div>
+    <a class="close"title="Закрыть" href="#close"></a>
+   
+	</div>
   </div>
+ 
   <script type="text/javascript" src="../common-files/js/require.min.js" data-main="../scripts/startup"></script>
 </body>
 
